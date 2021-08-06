@@ -1,5 +1,5 @@
 pipeline {
-    agent {label 'Agent_2_Windows'} 
+    agent {label 'agent2'} 
     stages {
         stage('---clean---') { 
             steps {
